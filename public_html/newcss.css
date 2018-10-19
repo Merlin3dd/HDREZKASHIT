@@ -1,0 +1,304 @@
+
+
+.TOP {
+    width:150%;
+    height:42px;
+    background-color: #495057   ;
+
+    text-align: center;
+}
+.LT:hover{
+    border:1px;
+    border-style: outset;
+    border-color: yellowgreen;
+    text-decoration: none;
+}
+
+.LeftTop {
+    float:left;
+    padding-left:20px;
+    padding-top: 8px;
+
+} 
+.RightTop {
+
+    padding-right:20px;
+    padding-top: 8px;
+} 
+
+.FULLBUDY {
+    padding-bottom: 10px;
+}
+.CenterLOGO{ 
+   padding-bottom: 1px;
+    font-family: Raanana;
+    font-size: 30;   
+}
+.razdeli{
+    background-color:transparent; 
+    padding-top: 12px;
+     height:50px;
+box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+.razdeli2{
+    font-weight: bold;
+    padding-right: 7px;
+    border-style: none; 
+    background-color: transparent;
+    cursor:pointer;
+}
+.razdeli3{
+    
+    padding-right: 7px;
+}
+.namerazdelov{
+    display: inline;
+}
+
+.dropdown-vid{
+    
+    position:relative;
+        display: inline-block;
+         
+}
+.dropdown-content{
+    display: none;
+    position:absolute;
+    min-width: 160px;
+    z-index: 1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: #007bff;
+     
+}
+.dropdown-content a {
+    display: block; 
+    padding: 12px 16px;
+    text-decoration: none;
+    color:black;
+    
+}
+.dropdown-content:hover .dropdown-vid {
+    
+    display: block;
+background-color: green;
+}
+
+ .dropbtn{
+   
+    font-weight: bold;
+    padding-right: 7px;
+    border-style: none; 
+    background-color: transparent;
+    cursor:pointer;
+}
+.searchpanel{
+   
+    float:right;
+    size:auto;
+
+}
+.searchpanel input{
+    color:black;
+    border:none;
+       
+        
+       
+     
+}
+::placeholder {
+    color:black
+}
+.someshiet{
+    background-color: #e0e0e0;
+    height: 201px;
+   padding-top: 28px;
+   padding-left: 50px;
+ 
+}
+ 
+ .someshiet a{
+     float:left;
+     z-index: -1;
+   margin-left: 16px;
+    
+     
+ }
+ .supergay{
+    
+        background-color: rgba(0,0,0,0.7);
+    
+}
+ 
+.content-item{
+    margin: 0 0 20px 16px;
+  
+}
+.content-last{
+    padding-left: 10px;
+    width: 600px !important; 
+    position: absolute;
+ left:50px;
+ bottom: 0;
+ top: 330;
+ right: 620px;
+}
+.somespace{
+    width: 100%;
+    height: 25px;
+    background-color: transparent;
+}
+.content-link {
+    padding-top: 5px;
+    
+}
+ 
+.content-link a{
+    color: #2e859e;
+}
+.content-cover{
+    border:2px;
+    border-style: solid;
+    border-color: #ddd;
+    
+}
+.supergaydeep a{
+    margin-right:  60px;
+}
+ 
+.right-last{
+    width: 386px;
+     position: relative;
+    float:right;
+        right:530px;
+    top: 10px;
+   
+}
+.right-last-top  {
+   font-family: arial;
+   font-weight: 400;
+    
+    color: #000000;
+   font-size: 24px;
+}
+.right-last-data{
+    background-color: #6f6f6f;
+    font-family: arial;
+    font-weight: 700;
+    font-size: 14px;
+    color:#fff;
+    padding: 7px 14px;
+    
+}
+
+.right-last-div{
+    border : solid rgb(204, 204, 204);
+    border-width: 0 0 1 0; 
+     padding: 10px 11px;
+}
+.right-last-ul li {
+    list-style: none;
+    color: black;
+   display: table-row;
+       vertical-align: middle;
+   
+    
+}
+.right-last-ul li a {
+   
+    color: black;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: 700;
+           padding-right: 5px;
+     
+    
+}
+.right-last-ul-se{
+   
+    color: black;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: 400;
+          padding-right: 5px;
+       display: table-cell;
+vertical-align: middle;
+    
+}
+
+.right-last-ul{
+    display: table-row;
+    width: 386px;
+    
+}
+
+ul.right-last-ul{
+    padding: 0;
+}
+.right-last-ul-ep   {
+ padding-left: 50px;
+    color: black;
+    font-family: arial;
+    font-size: 11px;
+    font-weight: bold ;
+   position: relative;
+   text-align: right;
+   display: table-cell;
+     vertical-align: middle;
+     white-space: nowrap;
+     
+}
+.right-last-ul-ep i{
+    display: block;
+    
+}
+.opisanie{
+     position: absolute;
+     top: 1300px;
+     text-align: left;
+     left: 380px;
+}
+.podval{
+    background-color: #000;
+    width: 100%;
+    display:block;
+    position: absolute;
+    top:1750px;
+    padding-left: 360px;
+    padding-bottom: 40px;
+}
+.podval-ul{
+    display: block;
+      
+  
+}
+.podval-li{
+      float:left;
+       padding-left: 50px;
+       color: #777;
+       padding-top: 25px;
+       font-size: 12px;
+       
+}
+ul.podval-ul{
+    list-style: none;
+}
+.slogan{
+    display: block;
+    float: left;
+        padding-left: 89px;
+        padding-top: 10px;
+        color:white;
+        font-size: 12px;
+}
+.podval-left{
+    float:left;
+}
+.podval-right{
+   float: right;
+        padding-top: 24px;
+         
+}
+.podval-right a{
+    padding-right: 300px;
+    color: white;
+}
